@@ -1,0 +1,11 @@
+@import 'assets/styles/mixins';
+@import 'assets/styles/variables';
+
+.Login {
+	@include displayFlex(center, center);
+	min-height: 400px;
+
+	&__form {
+		@include displayFlex(center, center, column);
+	}
+}

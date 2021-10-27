@@ -1,0 +1,10 @@
+
+@import 'assets/styles/variables';
+
+.App {
+  width: 80%;
+  min-width: 800px;
+  margin: 0 auto;
+  background-color: $app-bcg;
+  padding: 20px;
+}

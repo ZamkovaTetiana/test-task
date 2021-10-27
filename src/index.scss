@@ -1,0 +1,9 @@
+@import 'assets/styles/variables';
+@import 'react-toastify/dist/ReactToastify.css';
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background-color: $main-bcg;
+  font-family: 'Montserrat', sans-serif;
+}

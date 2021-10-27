@@ -1,0 +1,17 @@
+.Game{
+  display: flex;
+  margin: 20px 10px;
+
+  &__icon{
+    width: 140px;
+    margin: 0 10px;
+  }
+
+  &__title{
+    font-weight: bold;
+  }
+
+  &__description{
+    margin: 5px 0 10px;
+  }
+}

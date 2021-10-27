@@ -1,0 +1,15 @@
+@import 'assets/styles/mixins';
+
+.GameModal {
+	position: relative;
+  background-color: black;
+	@include displayFlex(center, center);
+
+	&__closeIcon {
+		color: white;
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		cursor: pointer;
+	}
+}
